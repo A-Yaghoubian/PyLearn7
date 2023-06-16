@@ -1,2 +1,4 @@
+lobe_project
+*.jpg
 *.png 
 !mnist.png

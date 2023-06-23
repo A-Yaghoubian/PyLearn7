@@ -1,4 +1,4 @@
-# Generate Normal Dataset and Scatter(3D)
+# Generate Normal Dataset and Scatter(2D and 3D)
 
 Generate a random dataset between _banana_ and _apple_ in exercise0 and between _melon_ and _balloon_ in exercise1.
 
@@ -11,4 +11,4 @@ Create relevant graphs with width, length and weight parameters.
 ![output1](https://user-images.githubusercontent.com/79134287/146729014-de6b395a-3b2b-4d51-97b8-8d5672a60467.png)
 
 ### California Cities (Area and Population)
-
+![image](https://github.com/AliYqb/PyLearn7/assets/79134287/ab07bdd9-4966-4b64-b774-c220db92615e)

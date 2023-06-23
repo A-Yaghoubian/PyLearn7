@@ -9,3 +9,6 @@ Create relevant graphs with width, length and weight parameters.
 
 ### Melon & Balloon (width, length and weight)
 ![output1](https://user-images.githubusercontent.com/79134287/146729014-de6b395a-3b2b-4d51-97b8-8d5672a60467.png)
+
+### California Cities (Area and Population)
+

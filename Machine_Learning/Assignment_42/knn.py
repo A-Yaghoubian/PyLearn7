@@ -1,4 +1,5 @@
 import numpy as np
+from tqdm import tqdm
 
 class KNN:
     def __init__(self, k):
@@ -14,7 +15,7 @@ class KNN:
         
     def predict(self, X):
         Y = []
-        for x in X:
+        for x in tqdm(X):
             distances = []
             for x_train in self.X_train:
                 d = self.euclidean_distance(x, x_train)
@@ -35,6 +36,13 @@ class KNN:
                 print('🍌')
             elif output == 2:
                 print('🍉')
+                
+    def show_person(self, outputs):
+        for output in outputs:
+            if output == 0:
+                print('👩🏽')
+            elif output == 1:
+                print('👨🏽')
                 
     # Test
     def evaluate(self, X, Y):
